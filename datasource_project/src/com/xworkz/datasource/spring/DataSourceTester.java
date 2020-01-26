@@ -10,6 +10,7 @@ public class DataSourceTester {
 
 	public static void main(String[] args) {
 		try{
+		//updating in program
 		Connection connection=null;
 		Statement statement=null;
 		String sql="insert into dataresource_table values(3,'car',100000)";
